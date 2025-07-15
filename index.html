@@ -3,64 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Creator Now | Video Editor Portfolio</title>
+  <title>Creator Now Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <!-- HERO SECTION -->
-  <section id="hero">
-    <video autoplay muted loop playsinline id="heroVideo">
-      <source src="assets/hero-video.mp4" type="video/mp4" />
-    </video>
-    <div class="hero-content">
-      <h1 class="hero-title">I Create Stories Through Edits.</h1>
-      <a href="#reels" class="cta-btn">Watch Showreel</a>
+  <!-- Hero Section -->
+  <header>
+    <h1>Hi, My Name<span>Name Is</span></h1>
+    <h2>Qasim Bhatti</h2>
+     </header>
+
+  <!-- Featured Video -->
+  <section class="featured">
+    <h3>Passion</h3>
+    <iframe width="560" height="315" src=https://youtu.be/fePTbmJYiZI frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- Viral video-->
+  <section class="color-grading">
+    <h3>Color Grading</h3>
+    <iframe width="560" height="315" src=https://youtu.be/p4wy4vER17U frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- Latest Work Grid -->
+  <section class="latest-work">
+    <h3>Latest Work</h3>
+    <div class="grid">
+      <!-- Each reel card -->
+      <iframe src="YOUR_YOUTUBE_REEL_LINK"></iframe>
+      <iframe src="YOUR_YOUTUBE_REEL_LINK"></iframe>
     </div>
   </section>
 
-  <!-- REELS SECTION -->
-  <section id="reels">
-    <h2 class="section-title">Featured Reels</h2>
-    <div class="video-grid">
-      <!-- Example Embed -->
-      <div class="video-card">
-        <iframe src="https://www.youtube.com/embed/yourReelID" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <!-- Add more cards -->
+  <!-- Viral Work Grid -->
+  <section class="viral-work">
+    <h3>Viral Work</h3>
+    <div class="grid">
+      <iframe src="YOUR_YOUTUBE_REEL_LINK"></iframe>
+      <iframe src=https://youtube.com/shorts/gFAj1u8Dcg4?si=a2bUJZGoU-0Ah0se></iframe>
     </div>
   </section>
 
-  <!-- LONG VIDEOS SECTION -->
-  <section id="long-videos">
-    <h2 class="section-title">Featured Long-Form Edits</h2>
-    <div class="video-grid">
-      <div class="video-card">
-        <iframe src="https://www.youtube.com/embed/yourLongVideoID" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
+  <!-- About Me -->
+  <section class="about">
+    <h3>About Me</h3>
+    <p>I’m a passionate video editor bringing storytelling with impact. Contact: your-email@gmail.com</p>
   </section>
 
-  <!-- ABOUT ME -->
-  <section id="about">
-    <h2 class="section-title">About Me</h2>
-    <p class="about-text">
-      Hi, I’m [Your Name], a passionate video editor who turns vision into cinematic cuts. I specialize in reels, short-form & long-form edits that grab attention.
-    </p>
-  </section>
-
-  <!-- CONTACT FORM -->
-  <section id="contact">
-    <h2 class="section-title">Contact Me</h2>
-    <form name="contact" method="POST" data-netlify="true">
-      <input type="text" name="name" placeholder="Your Name" required/>
-      <input type="email" name="email" placeholder="Your Email" required/>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-  <script src="script.js"></script>
+  <!-- Footer -->
+  <footer>
+    <p>Got a vision? Let's Bring It to Life!</p>
+  </footer>
 </body>
 </html>
